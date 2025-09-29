@@ -8,8 +8,14 @@ The car can be controlled wirelessly from an **Android device** through a dedica
 ## 📸 Images
 
 <p float="left">
-  <img src="docs/images/motor_wiring_closeup.jpg" width="220" />
+  <img src="docs/images/robot_car_final.jpg" width="220" />
+  <img src="docs/images/chassis.jpg" width="220" />
+  <img src="docs/images/wheel_and_motor_assembly.jpg" width="220" />
   <img src="docs/images/motor_mounting.jpg" width="220" />
+  <img src="docs/images/motor_wiring_closeup.jpg" width="220" />
+  <img src="docs/images/motor_driver_wiring.jpg" width="220" />
+  <img src="docs/images/battery_holder.jpg" width="220" />
+  <img src="docs/images/battery_hookup.jpeg" width="220" />
 </p>
 
 ---
