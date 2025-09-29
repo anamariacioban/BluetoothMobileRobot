@@ -1,4 +1,4 @@
-# BluetoothMobileCar
+# BluetoothMobileRobot
 
 A Bluetooth-controlled mobile robot built using **Arduino Uno**, **L298N motor drivers**, and the **HC-05 Bluetooth module**.  
 The car can be controlled wirelessly from an **Android device** through a dedicated app that sends commands via Bluetooth.
