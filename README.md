@@ -114,3 +114,21 @@ void loop() {
   if (BTSerial.available())
     Serial.write(BTSerial.read());
 }
+```
+
+## 📱 Android App for Control
+
+To control the robot car wirelessly, the project uses the **BT Car Controller** app available on Android devices.  
+This app provides a simple interface with buttons to send movement commands (forward, backward, left, right, stop) via Bluetooth to the HC-05 module connected to the Arduino.
+
+**Why Android?**  
+Android devices natively support the Serial Port Profile (SPP) Bluetooth communication used by the HC-05 module, making them ideal for this project.  
+iOS devices do not generally support classic Bluetooth SPP, so an Android phone or tablet is required to connect and control the robot.
+
+**Using the app:**
+
+1. Turn on the robot and ensure the HC-05 module is powered and in communication mode.  
+2. Open the BT Car Controller app on your Android device.  
+3. Search for the Bluetooth device named `RobotCar` (or the custom name you set).  
+4. Pair with the module using the password `0000` (default).  
+5. Once connected, use the on-screen controls to drive the robot.
